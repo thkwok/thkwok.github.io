@@ -1,0 +1,12 @@
+ <html>
+        <head>
+                <title>Tsz Ho Kwok's Academic Homepage</title>            
+        </head>
+        <body>
+			 <script src="https://bibbase.org/show?bib=https://bibbase.org/f/kiX9SeRxsRW2byALF/publications.bib&jsonp=1"></script> 
+			 
+			 <?php $contents =
+              file_get_contents("https://bibbase.org/show?bib=https://thkwok.github.io/publications.bib");
+              print_r($contents); ?> 
+        </body>
+</html>
