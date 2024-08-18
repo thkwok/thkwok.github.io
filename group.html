@@ -16,28 +16,11 @@
     <link rel="stylesheet" href="assets/css/tiny-slider.css" />
     <link rel="stylesheet" href="assets/css/glightbox.min.css" />
     <link rel="stylesheet" href="assets/css/main.css" />
-	
-	<style>
-	#group_article div.bibbase_group i+span { display: none; }
-    #group_inproceedings div.bibbase_group i+span { display: none; }
-    #group_mastersthesis div.bibbase_group i+span { display: none; }
-    #group_phdthesis div.bibbase_group i+span { display: none; }
-    #group_techreport div.bibbase_group i+span { display: none; }
-    #group_unpublished div.bibbase_group i+span { display: none; }
-    #group_incollection div.bibbase_group i+span { display: none; }
-	
-	#group_article div.bibbase_group i:after { content: " Journal Articles" }
-	#group_inproceedings div.bibbase_group i:after { content: " Conference Proceedings" }
-	#group_mastersthesis div.bibbase_group i:after { content: " Master's Thesis" }
-	#group_phdthesis div.bibbase_group i:after { content: " PhD Thesis" }
-	#group_techreport div.bibbase_group i:after { content: " Technical Report" }
-	#group_unpublished div.bibbase_group i:after { content: " Unpublished" }
-	#group_incollection div.bibbase_group i:after { content: " Book Chapters" }
-	</style>
 
 </head>
 
 <body>
+
     <!-- Preloader -->
     <div class="preloader" style="opacity: 0; display: none;">
         <div class="preloader-inner">
@@ -63,7 +46,7 @@
                                 <span class="toggler-icon"></span>
                             </button>
                             <script src="menu.js"></script>
-							<script>document.getElementById("publication").className += " active";</script>
+							<script>document.getElementById("group").className += " active";</script>
                         </nav>
                         <!-- End Navbar -->
                     </div>
@@ -71,14 +54,26 @@
             </div> <!-- row -->
         </div> <!-- container -->
     </header>
-    <!-- End Header Area -->	
+    <!-- End Header Area -->
 
     <!-- Start Main Area -->
     <section class="process section">
         <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <script src="https://bibbase.org/show?bib=https://thkwok.github.io/publications.bib&jsonp=1&showSearch=true&theme=simple&owner=none&group0=keywords&sort=-year"></script>
+            <div class="row align-items-center">
+                <div class="col-lg-4 col-12">
+                    <img src="./thkwok.jpg" alt="#">
+                </div>
+                <div class="col-lg-8 col-12">
+                    <div class="content">
+                        <h4>Tsz Ho Kwok (郭子豪), Ph.D.</h4>
+                        <p>Concordia University Research Chair (Tier II)<br/>
+							Associate Professor<br/>
+							Department of Mechanical, Industrial and Aerospace Engineering<br/>
+							Concordia University, Montreal, Quebec, Canada<br/><br/>
+							Email: tszho(dot)kwok(at)concordia(dot)ca<br/>
+							Office: EV4.231
+						</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -105,7 +100,7 @@
     </footer>
     <!--/ End Footer Area -->
 
-    <!-- ========================= scroll-top ========================= -->
+    <!-- ========================= scroll-top ========================= --
     <a href="#" class="scroll-top">
         <i class="lni lni-chevron-up"></i>
     </a>
