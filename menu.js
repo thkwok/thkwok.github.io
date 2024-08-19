@@ -5,6 +5,9 @@ document.write('\
 			<a id="index" href="index.html" aria-label="Toggle navigation">Home</a>\
 		</li>\
 		<li class="nav-item">\
+			<a id="distinction" href="distinction.html" aria-label="Toggle navigation">Distinction</a>\
+		</li>\
+		<li class="nav-item">\
 			<a id="publication" href="publication.html" aria-label="Toggle navigation">Publication</a>\
 		</li>\
 	</ul>\

@@ -180,7 +180,8 @@ ul,
 ol {
   margin: 0px;
   padding: 0px;
-  list-style-type: none;
+  list-style-type: circle;
+  list-style-position: inside;
 }
 
 .mt-5 {
@@ -1064,7 +1065,7 @@ ol {
 
 /* Section Title */
 .section-title {
-  text-align: center;
+  text-align: left;
   margin-bottom: 80px;
   padding: 0 300px;
   position: relative;
