@@ -10,9 +10,9 @@ document.write('\
 		<li class="nav-item">\
 			<a id="publication" href="publication.html" aria-label="Toggle navigation">Publication</a>\
 		</li>\
+		<li class="nav-item">\
+			<a href="https://www.jotform.com/tszhokwok/GS_Apply" class="signup" target=new>Want to Join Us?</a>\
+		</li>\
 	</ul>\
-</div>\
-<div class="button">\
-	<a href="https://www.jotform.com/tszhokwok/GS_Apply" class="signup" target=new>Want to Join Us?</a>\
 </div>\
 ');
