@@ -1066,8 +1066,8 @@ ol {
 /* Section Title */
 .section-title {
   text-align: left;
-  margin-bottom: 80px;
-  padding: 0 300px;
+  margin-bottom: 50px;
+  padding: 0 50px;
   position: relative;
   z-index: 5;
 }
