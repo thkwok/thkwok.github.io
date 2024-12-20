@@ -14,7 +14,7 @@ document.write('\
 			<a id="publication" href="DAMLab.html" aria-label="Toggle navigation">DAMLab</a>\
 		</li>\
 		<li class="nav-item">\
-			<a href="https://www.jotform.com/tszhokwok/GS_Apply" class="signup" target=new>Want to Join Us?</a>\
+			<a href="https://tally.so/r/wbNXG6" class="signup" target=new>Want to Join Us?</a>\
 		</li>\
 	</ul>\
 </div>\
